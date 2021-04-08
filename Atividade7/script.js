@@ -10,14 +10,14 @@ do{
 }while(isNaN(a))
 
 do{
-    b = parseFloat(prompt("Informe o primeiro número:"));
+    b = parseFloat(prompt("Informe o segundo número:"));
     if (isNaN(b)){
         alert("Entrada inválida!");
     }
 }while(isNaN(b))
 
 do{
-    c = parseFloat(prompt("Informe o primeiro número:"));
+    c = parseFloat(prompt("Informe o terceiro número:"));
     if (isNaN(c)){
         alert("Entrada inválida!");
     }
